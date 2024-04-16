@@ -1,9 +1,9 @@
 @fontePrincipal: Roboto, sans-serif;
 @fonteDoTitulo: Lobster, cursive;
-@corDoTexto: #fff;
-@corDeFundo: #eb3b5a;
+@corDoTexto: #000;
+@corDeFundo: #3bebeb;
 @corDoTextodoBotao: #000;
-@corDoFundoDoBotao: #f7b731;
+@corDoFundoDoBotao: #f74831;
 
 body {
     background-color: @corDeFundo;
@@ -44,14 +44,14 @@ input {
     border: none;
     background-color: transparent;
     text-align: center;
-    color: #fff;
-    border-bottom: 6px solid #fff;
+    color: @corDoTexto;
+    border-bottom: 6px solid @corDoTexto;
 }
 
 .resultado {
     padding: 16px;
     margin-top: 120px;
-    border: 8px dotted #fff;
+    border: 8px dotted @corDoTexto;
     display: none; //para mostrar apenas o resultado depois de clicar em sortear
 
     span {
